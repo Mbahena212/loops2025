@@ -1,10 +1,10 @@
-Loops video  https://www.youtube.com/watch?v=KWgYha0clzw&t=1s&pp=ygUOYnJvIGNvZGUgbG9vcHM%3D
-While loops  
+# Loops video  https://www.youtube.com/watch?v=KWgYha0clzw&t=1s&pp=ygUOYnJvIGNvZGUgbG9vcHM%3D
+# While loops  
 
 # you can iterate over a range, strings, sequence, etc\
 
 
-for x in reversed(1,11, 2)
+for x in reversed(1,11, 2):
     print(x)
 
 

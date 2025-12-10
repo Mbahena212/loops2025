@@ -1,20 +1,47 @@
 # Example Practice:
-# Given this list of fruits:
-fruits = ["apple", "banana", "cherry", "date"]
+# # Given this list of fruits:
+# fruits = ["apple", "banana", "cherry", "date"]
 
-# Challenge:
-# Use a for loop to print each fruit on a new line.
-print(fruits[0])
-print(fruits[1])
-print(fruits[2])
-for fruit in fruits:
-    print(fruit)
-# i just worked with loops
+# print(len(fruits))
+# # Challenge:
+# # Use a for loop to print each fruit on a new line.
+# print(fruits[0])
+# print(fruits[1])
+# print(fruits[2])
+# for fruit in fruits:
+#     print(fruit)
+# # i just worked with loops
 
 # Given a list of school subjects:
 subjects = ["Math", "Science", "History", "Art"]
 for subject in subjects:
+    if subject == "history":
+        continue
     print(subject)
+
+
+
+for subject in subjects:
+    if subject == "Science":
+        continue
+    print(subject)
+
+list1000 = list(range(1,1001))
+for number in list1000:
+    if number > 599:
+        break
+    print(number)
+
+
+for number in list1000:
+    if number > 300:
+        break 
+    print(number)
+for number in list1000: 
+    if number < 500:
+        break 
+    print(number) 
+
 # Challenge:
 # Use a for loop and range to print each subject along with its index:
 # Example output: "Subject 0: Math"
